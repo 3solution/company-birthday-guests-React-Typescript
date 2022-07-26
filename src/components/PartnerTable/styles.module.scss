@@ -1,0 +1,43 @@
+.wrapper {
+  @apply flex flex-col;
+
+  .overflow {
+    @apply -my-2 overflow-x-auto tablet:-mx-6 desktop:-mx-8;
+
+    .width {
+      @apply inline-block min-w-full py-2 align-middle phoneLandscape:px-6 desktop:px-8;
+
+      .tableWrapper {
+        @apply overflow-hidden border-b border-gray-200 shadow phoneLandscape:rounded-lg;
+
+        .table {
+          @apply min-w-full divide-y divide-gray-200;
+
+          .thead {
+            @apply bg-gray-50;
+
+            .th {
+              @apply px-6 py-3 text-sm font-medium  text-left text-gray-500 tracking-wider uppercase;
+
+              &.last {
+                @apply text-right;
+              }
+            }
+          }
+
+          .td {
+            @apply px-6 py-4 whitespace-nowrap text-sm text-gray-500;
+
+            &.name {
+              @apply text-gray-900 whitespace-nowrap;
+            }
+
+            &.last {
+              @apply text-right;
+            }
+          }
+        }
+      }
+    }
+  }
+}
