@@ -29,7 +29,7 @@ const PartnerTable: React.FC<PartnerProps> = ({ partners }) => {
                     longitude
                   </th>
                   <th scope="col" className={classNames(styles.th, styles.last)}>
-                    distance
+                    distance <span className={classNames(styles.th, styles.km)}>(km)</span>
                   </th>
                 </tr>
               </thead>
