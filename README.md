@@ -53,13 +53,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 <img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/desktop.png" /><br>
 
-### Tablet
-
-<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/tablet.png" /><br>
-
 #### Phone
 
-<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone-1.png" />
-<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone-2.png" />
-<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone-3.png" />
-<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone-4.png" />
+<img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone.png" />
