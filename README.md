@@ -53,6 +53,12 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 <img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/desktop.png" /><br>
 
+
+
+
+
+
+
 ### Phone
 
 <img align="center" width="50%" src="https://github.com/Evil-Developer/company-birthday-guests/blob/master/output/phone.png" />
