@@ -18,14 +18,6 @@
 
             .th {
               @apply px-6 py-3 text-sm font-medium  text-left text-gray-500 tracking-wider uppercase;
-
-              &.km {
-                @apply lowercase text-right p-0;
-              }
-
-              &.last {
-                @apply text-right;
-              }
             }
           }
 
@@ -34,10 +26,6 @@
 
             &.name {
               @apply text-gray-900 whitespace-nowrap;
-            }
-
-            &.last {
-              @apply text-right;
             }
           }
         }

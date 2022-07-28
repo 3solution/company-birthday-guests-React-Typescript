@@ -22,15 +22,6 @@ const PartnerTable: React.FC<PartnerProps> = ({ partners }) => {
                   <th scope="col" className={styles.th}>
                     name
                   </th>
-                  <th scope="col" className={styles.th}>
-                    latitude
-                  </th>
-                  <th scope="col" className={styles.th}>
-                    longitude
-                  </th>
-                  <th scope="col" className={classNames(styles.th, styles.last)}>
-                    distance <span className={classNames(styles.th, styles.km)}>(km)</span>
-                  </th>
                 </tr>
               </thead>
               <tbody>
@@ -38,9 +29,6 @@ const PartnerTable: React.FC<PartnerProps> = ({ partners }) => {
                   <tr key={partner.id}>
                     <td className={styles.td}>{partner.id}</td>
                     <td className={classNames(styles.td, styles.name)}>{partner.name}</td>
-                    <td className={styles.td}>{partner.latitude}</td>
-                    <td className={styles.td}>{partner.longitude}</td>
-                    <td className={classNames(styles.td, styles.name, styles.last)}>{partner.distance}</td>
                   </tr>
                 ))}
               </tbody>
