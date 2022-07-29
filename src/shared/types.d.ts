@@ -3,5 +3,4 @@ interface PartnerType {
   name: string;
   latitude: string;
   longitude: string;
-  distance: number;
 }
